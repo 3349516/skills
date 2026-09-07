@@ -1,0 +1,4 @@
+interface:
+  display_name: "XtQuant XtTrade"
+  short_description: "查询并检测 XtQuant 交易接口 API"
+  default_prompt: "Use $xtquant-xttrade to answer XtTrade API usage questions and safely check local trading-module connectivity."

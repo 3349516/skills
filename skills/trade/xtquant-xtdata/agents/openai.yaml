@@ -1,0 +1,4 @@
+interface:
+  display_name: "XtQuant XtData"
+  short_description: "查询并检测 XtQuant 行情数据 API"
+  default_prompt: "Use $xtquant-xtdata to answer XtData API usage questions and check local xtquant connectivity."
