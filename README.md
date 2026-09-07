@@ -55,3 +55,5 @@ npx skills check                              # 只检查已装 skill 是否有�
 | `app` | `android-compose-mvvm` | Android Jetpack Compose 的 MVVM / UI 层架构规范（UiState、ViewModel、单向数据流、事件与导航） |
 | `trade` | `xtquant-xtdata` | XtQuant.XtData 行情模块 API 查询与本机可用性检测 |
 | `trade` | `xtquant-xttrade` | XtQuant.XtTrade 交易模块 API 查询与本机可用性检测 |
+| `trade` | `qmt-builtin-strategy` | QMT 内置 Python 策略的设计、审查、重构（init/handlebar/ContextInfo/passorder 等） |
+| `trade` | `ptrade-strategy` | PTrade Python 策略编写、审查与排查，支持回测迁移到模拟盘/实盘 |

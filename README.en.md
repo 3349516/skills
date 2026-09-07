@@ -55,3 +55,5 @@ npx skills check                              # Check installed skills for updat
 | `app` | `android-compose-mvvm` | MVVM / UI-layer architecture guidelines for Android Jetpack Compose (UiState, ViewModel, unidirectional data flow, events & navigation) |
 | `trade` | `xtquant-xtdata` | XtQuant.XtData market-data module API reference & local availability check |
 | `trade` | `xtquant-xttrade` | XtQuant.XtTrade trading module API reference & local availability check |
+| `trade` | `qmt-builtin-strategy` | Design, review & refactor QMT built-in Python strategies (init/handlebar/ContextInfo/passorder etc.) |
+| `trade` | `ptrade-strategy` | Write, review & debug PTrade Python strategies; migrate backtests to paper/live trading |

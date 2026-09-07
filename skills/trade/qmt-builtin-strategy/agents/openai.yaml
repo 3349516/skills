@@ -1,0 +1,7 @@
+interface:
+  display_name: "QMT Builtin Strategy"
+  short_description: "规范 QMT 内置 Python 策略开发与模板生成"
+  default_prompt: "Use $qmt-builtin-strategy to review a QMT built-in Python strategy idea, audit existing strategy code, or generate a compliant strategy template."
+
+policy:
+  allow_implicit_invocation: true

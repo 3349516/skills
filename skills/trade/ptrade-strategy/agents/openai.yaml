@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "PTrade 策略开发"
+  short_description: "依据离线 PTrade API 文档编写与检查策略"
+  default_prompt: "使用 $ptrade-strategy 按 PTrade API 编写一个可直接回测和实盘运行的策略。"
