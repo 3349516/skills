@@ -38,6 +38,16 @@ npx skills remove <name>        # current project
 npx skills remove <name> -g     # global
 ```
 
+## More Commands
+
+```bash
+npx skills ls -g                              # List installed (-g global; -a <agent> filter; --json)
+npx skills find <keyword>                     # Search the registry (skills.sh); --owner limits to a GitHub owner
+npx skills use 3349516/skills@xtquant-xtdata  # Use a skill without installing (prints a prompt, pipe to an agent)
+npx skills init <name>                        # Scaffold a new skill (SKILL.md) in the current directory
+npx skills check                              # Check installed skills for updates without applying them
+```
+
 ## Skills
 
 | Category | Skill | Description |

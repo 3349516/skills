@@ -38,6 +38,16 @@ npx skills remove <name>        # 当前项目
 npx skills remove <name> -g     # 全局
 ```
 
+## 其它命令
+
+```bash
+npx skills ls -g                              # 列出已安装（-g 全局；-a <agent> 按工具过滤；--json 机器可读）
+npx skills find <关键词>                       # 搜索注册表（skills.sh）上的 skill；--owner 限定仓库主
+npx skills use 3349516/skills@xtquant-xtdata  # 不安装，直接生成该 skill 的使用提示（可管道传给 agent）
+npx skills init <name>                        # 在当前目录创建新 skill 骨架（SKILL.md）
+npx skills check                              # 只检查已装 skill 是否有新版本，不实际更新
+```
+
 ## Skill 清单
 
 | 分类 | Skill | 说明 |
